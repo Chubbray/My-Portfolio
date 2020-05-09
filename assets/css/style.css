@@ -48,24 +48,28 @@
   }
 
   .subtitle {
-    
-    display: flex;
-    
-    flex-wrap: wrap;
     background-image: url(https://www.designyourway.net/blog/wp-content/uploads/2018/12/programming-wallpaper19-800x450.jpg);
+    height: 400px;
     background-size: cover;
-    background-position: right;
-    width: 100%;
+    background-position: center;
+    position: relative;
+  }
+
+  .subtitle-cta {
+    background-color: cadetblue;
+    padding: 20px;
+    color: dimgrey;
+    border: solid 3px dimgrey;
+    width: 600px;
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+  }
+
+  .subtitle-cta h2 {
+    font-size: 24px;
+    text-align: center;
+    margin: 0px;
   }
 
   
-
-  .subtitle-cta h2 {
-    
-    font-style: normal;
-    font-size: 20px;
-    color: dimgrey;
-    text-align: right;
-    margin: 5%;
-    line-height: 5;
-  }
