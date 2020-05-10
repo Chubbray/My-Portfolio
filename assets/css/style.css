@@ -48,6 +48,8 @@
   }
 
   .subtitle {
+    align-items: flex-start;
+    display: flex;
     background-image: url(https://www.designyourway.net/blog/wp-content/uploads/2018/12/programming-wallpaper19-800x450.jpg);
     height: 400px;
     background-size: cover;
@@ -55,7 +57,18 @@
     position: relative;
   }
 
+  .my-photo {
+    flex: 1 12%;
+    margin-right: 20px;
+  }
+  
+  .my-photo img {
+    max-width: 100%;
+  }
+
   .subtitle-cta {
+    align-items: flex-start;
+    display: flex;
     background-color: cadetblue;
     padding: 20px;
     color: dimgrey;
@@ -67,12 +80,15 @@
   }
 
   .subtitle-cta h2 {
+    align-items: flex-start;
     font-size: 24px;
     text-align: center;
     margin: 0px;
   }
 
   .section-title {
+    align-items: flex-start;
+    display: flex;
     padding-bottom: 20px;
     text-align: right;
     margin: 30px;
@@ -85,16 +101,38 @@
   }
 
   .history p {
-    display: inline;
-    
+    flex: auto;
+    width: 75%;
     text-align: left;
     margin: 3.5%;
     color: black;
     font-size: 18px;
     line-height: 1.2;
     position: absolute;
-    bottom: 50px;
-    right: 0px;
+    bottom: 85px;
+    right: 30px;
   }
 
+  .my-contact a {
+    text-decoration: none;
+    color: dimgrey;
+  }
+
+  .subtitle div {
+    margin: 7px 0;
+  }
+
+  .subtitle div ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  .subtitle div ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+  }
   
