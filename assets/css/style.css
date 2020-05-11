@@ -63,7 +63,7 @@
   }
   
   .my-photo img {
-    max-width: 20%;
+    max-width: 175%;
   }
 
   .subtitle-cta {
@@ -96,8 +96,8 @@
     display: flex;
     padding-bottom: 20px;
     text-align: right;
-    margin: 30px;
-    width: 15%;
+    margin: 40px;
+    width: 35%;
     font-size: 48px;
     color: dimgray;
     border-right: 4px solid;
@@ -137,6 +137,10 @@
   footer ul li {
     list-style-type: none;
     margin-left: 20px;
+  }
+
+  .flex-row {
+    width: 100%;
   }
 
   .my-contact {
