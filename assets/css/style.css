@@ -63,7 +63,7 @@
   }
   
   .my-photo img {
-    max-width: 100%;
+    max-width: 20%;
   }
 
   .subtitle-cta {
@@ -79,7 +79,12 @@
     right: 40px;
   }
 
+  .flex-row {
+    display: flex;
+  }
+
   .subtitle-cta h2 {
+    flex: auto;
     align-items: flex-start;
     font-size: 24px;
     text-align: center;
@@ -97,7 +102,7 @@
     color: dimgray;
     border-right: 4px solid;
     border-color: dimgray;
-    position: relative;
+
   }
 
   .flex-row {
@@ -109,13 +114,17 @@
     flex: auto;
     width: 75%;
     text-align: left;
-    margin: 3.5%;
+    margin: 30px;
     color: black;
     font-size: 18px;
     line-height: 1.2;
-    position: absolute;
-    bottom: 85px;
-    right: 30px;
+  }
+
+  footer {
+    display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   padding: 20px 35px;
   }
 
   .my-contact a {
@@ -123,21 +132,21 @@
     color: dimgrey;
   }
 
-  .subtitle div {
+  .my-contact div {
     margin: 7px 0;
   }
 
-  .subtitle div ul {
+  .my-contact div ul {
     display: flex;
     flex-wrap: nowrap;
-    flex-direction: row;
+   
     justify-content: space-between;
     align-items: center;
     list-style: none;
   }
 
-  .subtitle div ul li a {
-    flex: auto;
+  .my-contact div ul li a {
+    text-align: left;
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
